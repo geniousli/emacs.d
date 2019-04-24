@@ -129,10 +129,13 @@
 (require 'init-folding)
 (require 'init-dash)
 
+;; --------self init
+(require 'init-undo)
 ;;(require 'init-twitter)
 ;; (require 'init-mu)
 (require 'init-ledger)
 ;; Extra packages which don't require any configuration
+
 
 (require-package 'gnuplot)
 (require-package 'lua-mode)
@@ -157,7 +160,7 @@
             (require 'server)
             (unless (server-running-p)
               (server-start))))
-
+(load-theme 'atom-one-dark t)
 ;;----------------------------------------------------------------------------
 ;; Variables configured via the interactive 'customize' interface
 ;;----------------------------------------------------------------------------
