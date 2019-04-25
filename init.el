@@ -53,6 +53,8 @@
 (maybe-require-package 'scratch)
 (require-package 'command-log-mode)
 
+(setq rbenv-installation-dir "/usr/local/opt/rbenv")
+
 (require 'init-frame-hooks)
 (require 'init-xterm)
 (require 'init-themes)

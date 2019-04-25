@@ -2,6 +2,11 @@
 ;;; Commentary:
 ;;; Code:
 
+
+;;rbenv -----------
+(require-package 'rbenv)
+
+
 ;;; Basic ruby setup
 (require-package 'ruby-hash-syntax)
 
@@ -123,7 +128,6 @@
 ;;      (mmm-add-mode-ext-class 'ruby-mode "\\.rb\\'" 'ruby-heredoc-sql)))
 
 ;; (add-to-list 'mmm-set-file-name-for-modes 'ruby-mode)
-
 
 
 (provide 'init-ruby)
