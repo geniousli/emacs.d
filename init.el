@@ -122,6 +122,7 @@
 (require 'init-clojure)
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
+(require 'init-elixir)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
@@ -190,3 +191,4 @@
 ;; no-byte-compile: t
 ;; End:
 ;;; init.el ends here
+(put 'dired-find-alternate-file 'disabled nil)
