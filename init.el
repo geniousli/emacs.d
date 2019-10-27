@@ -123,6 +123,7 @@
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
 (require 'init-elixir)
+(require 'other-func)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
