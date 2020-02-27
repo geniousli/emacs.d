@@ -193,3 +193,4 @@
 ;; End:
 ;;; init.el ends here
 (put 'dired-find-alternate-file 'disabled nil)
+(delete-selection-mode 1)
