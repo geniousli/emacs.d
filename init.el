@@ -124,6 +124,7 @@
 (require 'init-common-lisp)
 (require 'init-elixir)
 (require 'other-func)
+(require 'self-macro)
 
 (when *spell-check-support-enabled*
   (require 'init-spelling))
@@ -151,9 +152,9 @@
   (maybe-require-package 'daemons))
 (maybe-require-package 'dotenv-mode)
 
-(when (maybe-require-package 'uptimes)
-  (setq-default uptimes-keep-count 200)
-  (add-hook 'after-init-hook (lambda () (require 'uptimes))))
+;; (when (maybe-require-package 'uptimes)
+;;   (setq-default uptimes-keep-count 200)
+;;   (add-hook 'after-init-hook (lambda () (require 'uptimes))))
 
 
 ;;----------------------------------------------------------------------------
