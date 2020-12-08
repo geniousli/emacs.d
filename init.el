@@ -54,6 +54,7 @@
 (require-package 'command-log-mode)
 
 (setq rbenv-installation-dir "/usr/local/opt/rbenv")
+(setq racer-rust-src-path "/Users/lishaohua/.rustup/toolchains/1.32.0-x86_64-apple-darwin/lib/rustlib/src/rust/src")
 
 (require 'init-frame-hooks)
 (require 'init-xterm)
